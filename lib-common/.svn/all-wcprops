@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/lib-common
+END
+openmrs-api-1.8.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/lib-common/openmrs-api-1.8.2.jar
+END
+commons-logging-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/lib-common/commons-logging-1.0.4.jar
+END
+spring-2.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/lib-common/spring-2.5.1.jar
+END
+openmrs-web-1.8.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/lib-common/openmrs-web-1.8.2.jar
+END
+commons-lang-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/lib-common/commons-lang-2.4.jar
+END
+simple-xml-1.6.1-mod.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/lib-common/simple-xml-1.6.1-mod.jar
+END
+servlet-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/lib-common/servlet-api.jar
+END

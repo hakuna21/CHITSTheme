@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/src/org/openmrs/module/chits/audit
+END
+UserSessionEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/src/org/openmrs/module/chits/audit/UserSessionEvent.java
+END
+UserSessionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/src/org/openmrs/module/chits/audit/UserSessionListener.java
+END
+UserSessionTracker.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/src/org/openmrs/module/chits/audit/UserSessionTracker.java
+END
+UserSessionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/src/org/openmrs/module/chits/audit/UserSessionInfo.java
+END

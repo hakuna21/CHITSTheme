@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<project name="CHITS openmrs Theme" default="package" xmlns:aspectj="antlib:org.aspectj">
+	<path id="classpath">
+		<fileset dir="lib-common">
+			<include name="**/*.jar"/>
+		</fileset>
+		<fileset dir="WEB-INF/lib">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+
+	<taskdef resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties" classpathref="classpath" />
+
+	<target name="clean" description="Delete build and dist directories">
+		<delete dir="build" />
+		<delete dir="WEB-INF/classes" />
+		<mkdir dir="build" />
+		<mkdir dir="WEB-INF/classes" />
+	</target>
+
+	<target name="compile" depends="clean">
+		<javac destdir="build" classpathref="classpath" debug="true" debuglevel="lines,source,vars" includeantruntime="false" source="1.6">
+			<src path="src/" />
+			<include name="**/*.java" />
+		</javac>
+
+		<jar destfile="WEB-INF/lib/chits-tags.jar">
+			<fileset dir="build">
+				<include name="**/*" />
+			</fileset>
+		</jar>
+	</target>
+
+	<target name="weave" depends="clean">
+		<unzip src="lib-common/openmrs-web-1.8.2.jar" dest="WEB-INF/classes">
+			<patternset>
+				<include name="org/openmrs/web/servlet/LoginServlet.class" />
+				<include name="org/openmrs/web/user/CurrentUsers.class" />
+			</patternset>
+		</unzip>
+
+		<aspectj:iajc destdir="WEB-INF/classes" classpathref="classpath">
+			<sourceroots>
+				<pathelement location="aspects" />
+			</sourceroots>
+			<inpath>
+				<pathelement location="WEB-INF/classes" />
+			</inpath>
+		</aspectj:iajc>
+	</target>
+
+	<target name="package" depends="compile,weave">
+		<zip destfile="dist/openmrs-chits-theme.zip">
+			<fileset dir=".">
+				<exclude name="**/.svn/*" />
+				<exclude name="build.xml" />
+				<exclude name=".project" />
+				<exclude name=".classpath" />
+				<exclude name="src/**" />
+				<exclude name="dist/**" />
+				<exclude name="build/**" />
+				<exclude name=".settings/**" />
+				<exclude name="lib-common/**" />
+				<exclude name="aspects/**" />
+			</fileset>
+		</zip>
+		<copy todir="../CHITSPatientModule/web/module/">
+			<fileset dir="dist" includes="openmrs-chits-theme.zip" />
+		</copy>
+		<copy todir="../CHITSPatientModule/lib-common/">
+			<fileset dir="WEB-INF/lib" includes="chits-tags.jar" />
+		</copy>
+	</target>
+</project>

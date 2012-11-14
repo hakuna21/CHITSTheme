@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/33/trunk/CHITS/CHITSTheme/WEB-INF/lib
+END
+chits-tags.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/33/trunk/CHITS/CHITSTheme/WEB-INF/lib/chits-tags.jar
+END
+aspectjrt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/33/trunk/CHITS/CHITSTheme/WEB-INF/lib/aspectjrt.jar
+END
+joda-time-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/33/trunk/CHITS/CHITSTheme/WEB-INF/lib/joda-time-2.0.jar
+END

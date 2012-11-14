@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/WEB-INF/template
+END
+include.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/WEB-INF/template/include.jsp
+END
+footerFull.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/WEB-INF/template/footerFull.jsp
+END
+gutter.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/WEB-INF/template/gutter.jsp
+END
+footer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/WEB-INF/template/footer.jsp
+END
+banner.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/WEB-INF/template/banner.jsp
+END
+sidebar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/WEB-INF/template/sidebar.jsp
+END
+headerFull.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/WEB-INF/template/headerFull.jsp
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/WEB-INF/template/header.jsp
+END
+headerMinimal.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/WEB-INF/template/headerMinimal.jsp
+END
+footerMinimal.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/CHITS/CHITSTheme/WEB-INF/template/footerMinimal.jsp
+END
